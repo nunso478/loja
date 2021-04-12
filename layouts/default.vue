@@ -1,9 +1,9 @@
 <template>
   <div>
+    <navbar />
     <Nuxt />
   </div>
 </template>
-
 <style>
 html {
   font-family:
@@ -59,4 +59,8 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+.nuxt-link-exact-active{
+  color: green;
+}
+
 </style>

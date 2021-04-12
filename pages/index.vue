@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div>    
       <Logo />
       <h1 class="title">
         loja
