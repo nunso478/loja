@@ -26,24 +26,21 @@
 </template>
 <script>
 export default {
+    asynData(){
+        return $axios.get('https://carrinhocompras2-default-rtdb.firebaseio.com/.json')
+                    .then(
+                        (res)=>{
+                            return{
+                                artigo: res.data
+                            }
+                        }
+                    )
+    },
     data (){
         return{
             ultimaCompra:'nenhuma compra efetuada',
             carrinhoCompras:[],
-            artigo:[
-                {
-                    produto:"produto xyz",
-                    valor:25
-                },
-                {
-                    produto:"produto xpto",
-                    valor:5
-                },
-                {
-                    produto:"produto gto",
-                    valor:15
-                }
-            ]
+           
         }
     },
     methods:{
