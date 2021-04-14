@@ -1,7 +1,5 @@
 <template>
 <div>
-   
-   
     <div class="produtos">
          <produto v-for="(artigos,index) in artigo" :key="index" :produto="artigos.produto" :valor="artigos.valor" />
         <!-- <div  class="produto">
