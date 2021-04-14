@@ -9,7 +9,7 @@
 nav{
   height: 80px;
   width: 100%;
-  background-color: grey;
+  background-color: lightgreen;
   display: flex;
   justify-content: center;
   align-items: center;

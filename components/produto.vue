@@ -2,6 +2,7 @@
     <div class="produto">
         <h2>{{produto}}</h2>
         <p>{{valor}} euros</p>
+         <slot></slot>
     </div>
 </template>
 <script>
