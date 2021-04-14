@@ -20,11 +20,11 @@ export default {
                     produto:"produto xyz",
                     valor:25
                 },
-                 {
+                {
                     produto:"produto xpto",
                     valor:5
                 },
-                 {
+                {
                     produto:"produto gto",
                     valor:15
                 }
