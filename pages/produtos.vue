@@ -26,15 +26,15 @@
 </template>
 <script>
 export default {
-    asynData(){
-        return $axios.get('https://carrinhocompras2-default-rtdb.firebaseio.com/.json')
+   asyncData({ $axios }){
+       return $axios.get('https://umacarrinhocompras-default-rtdb.firebaseio.com/.json')
                     .then(
                         (res)=>{
-                            return{
+                            return {
                                 artigo: res.data
                             }
                         }
-                    )
+                    ) 
     },
     data (){
         return{
